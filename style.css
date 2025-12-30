@@ -48,3 +48,37 @@ body.bg-black {
     align-items: center;
     justify-content: center;
 }
+
+.brand-font {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.brand-card {
+    height: 180px;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.brand-card:hover {
+    transform: translateY(-5px);
+}
+
+.brand-card img {
+    max-height: 100px;
+    max-width: 100%;
+}
+
+.btn-custom-outline {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 0.9rem;
+    min-width: 140px;
+}
+
+.btn-custom-outline:hover {
+    background-color: #fff;
+    color: #000;
+}
