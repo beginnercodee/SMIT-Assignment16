@@ -82,3 +82,28 @@ body.bg-black {
     background-color: #fff;
     color: #000;
 }
+
+/* Franchise Section Styling */
+.letter-spacing-2 {
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+}
+
+/* Reusing the circle icon logic but making it transparent/white for this button */
+.icon-circle-small {
+    background-color: #fff;
+    color: #000; /* Black arrow inside white circle */
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+/* Button Hover Effect */
+.btn-outline-light:hover .icon-circle-small {
+    background-color: #000;
+    color: #fff;
+}
