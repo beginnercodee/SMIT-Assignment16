@@ -107,3 +107,20 @@ body.bg-black {
     background-color: #000;
     color: #fff;
 }
+
+/* Hover Zoom Effect for Images */
+.hover-zoom {
+    transition: transform 0.3s ease;
+    height: 250px; /* Fixed height to align all cards */
+    object-fit: cover;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.05);
+}
+
+/* Serif font for the sub-header "Express Franchises" */
+.serif-font {
+    font-family: "Georgia", serif;
+    font-weight: 400;
+}
