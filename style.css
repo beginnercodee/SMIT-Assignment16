@@ -1,0 +1,50 @@
+body.bg-black {
+    background-color: #000000;
+}
+
+.navbar {
+    background-color: #000000 !important;
+}
+
+.logo-img {
+    height: 70px;
+    width: auto;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.franchise-btn {
+    border-color: #ffffff;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.franchise-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.order-btn {
+    background-color: #ff0015;
+    border: none;
+    font-size: 1rem;
+    padding-right: 5px !important;
+}
+
+.order-btn:hover {
+    background-color: #cc0011;
+}
+
+.icon-circle {
+    background-color: white;
+    color: #ff0015;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
